@@ -43,5 +43,37 @@ echo "alias repro=\"~/.repro/repro.sh\"" >> .zshrc && source .zshrc
 
 You should now be able to use the `repro` command in your terminal. You can try this out with `repro -v`, which should return the current Repro.sh version installed.
 
+The final step of installation is initializing Repro. Run the following command to do so:
+
+```
+repro init
+```
+
+This will create the necessary directories and files for Repro to function, including a config at `~/.repro/config` which you can add and override config variables.
+
 ### Usage
+
+##### Initializing Repro
+
+```
+repro init
+```
+
+##### Saving a new script
+
+```
+repro save N <script-name>
+```
+
+##### Listing all available scripts
+
+```
+repro list
+```
+
+##### Resetting Repro installation
+
+```
+repro reset
+```
 
