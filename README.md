@@ -9,6 +9,13 @@ You're working on a new (or old) project, reading some documentation. There's a 
 
 With Repro, after you're done working with a new set of commands, you can save and enable them as a new script with just one command, so you'll never have to re-read the tutorial steps or retype the commands manually ever again.
 
+### Why not just use `history`?
+
+- the `history` util has different functionality between different shells (try `history 5` in `zsh`, you'll get an untruncated list of commands. `bash` will truncate to the last 5). 
+- `history` has unnecessarily confusing syntax
+- the lifespan of a command in history is too short if you haven't typed something in a while, or you end up searching through your massive history file
+- `history` doesn't give you a way to categorize and organize sets of commands as scripts
+
 ## Getting Started
 
 ### Pre-requisites
