@@ -1,6 +1,8 @@
 # Repro.sh
 #### Automatically create and manage scripts from history
 
+[![asciicast](https://asciinema.org/a/418471.svg)](https://asciinema.org/a/418471)
+
 ## Why?
 
 You're working on a new (or old) project, reading some documentation. There's a series of bash commands presented to you to execute sequentially, such as installing and configuring dependencies for a new tool. As you copy and paste these commands one by one into your terminal and hit enter, you think to yourself, "I should really just turn this into a script." You consider it momentarily, until you say "I'll just do it next time I'm doing this, I'm busy right now." Until next time comes, and the cycle repeats.
